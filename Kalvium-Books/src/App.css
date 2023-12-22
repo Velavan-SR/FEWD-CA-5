@@ -1,0 +1,159 @@
+#root {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(164, 244, 252);
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.5vh;
+  width: 100vw;
+  border-radius: 10px;
+  background-color: rgb(101, 227, 239);
+  box-shadow: 0px 0px 20px 0px rgba(14, 112, 121, 0.7);
+  position: sticky;
+  top: 0;
+}
+
+#searchbox{
+  height: 4.3vh;
+  width: 18vw;
+  text-align: center;
+  font-size: medium;
+  border-radius: 10px;
+}
+
+#register{
+  height: 5vh;
+  width: 10vw;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: rgb(9, 191, 208);
+  box-shadow: 0px 4px 12px 4px rgb(127, 222, 230);
+  color: white;
+}
+
+#register:hover{
+  box-shadow: 0px 4px 12px 4px rgb(38, 38, 38);
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#books-container{
+  height: 180vh;
+  width: 98vw;
+}
+
+#card{
+  height: 42vh;
+  width: 15vw;
+  margin-left: 2vw;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+#card img{
+  height: 28vh;
+  width: 10vw;
+  border-radius: 10px;
+  transition: background-color 3s ease-in-out;
+  transition: color 3s ease-in-out;
+}
+
+#card:hover{
+  background-color: rgb(57, 202, 216);
+  color: black;
+  box-shadow: 0px 4px 12px 4px rgb(38, 38, 38);
+}
+
+#star{
+  height: 2px;
+  width: 2px;
+}
+
+#rating{
+  height: 3.3vh;
+  width: 2.9vw;
+}
+
+#form-page{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  height: 70vh;
+  width: 50vw;
+  background-color:rgb(57, 202, 216);
+  border-radius: 15px;
+  padding: 3%;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+}
+
+form input{
+  height: 5vh;
+  width: 20vw;
+  border-radius: 8px;
+  text-align: center;
+  font-size: medium;
+}
+
+#signup{
+  height: 8v;
+  width: 100%;
+}
+
+#signup button{
+  height: 5vh;
+  width: 8vw;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  color: rgb(9, 191, 208);
+  cursor: pointer;
+}
+
+#signup button:hover{
+  background-color: rgb(9, 191, 208);
+  color: white;
+  box-shadow: 4px 4px 10px 4px rgb(38, 38, 38);
+}
